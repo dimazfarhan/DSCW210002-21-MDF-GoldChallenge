@@ -1,0 +1,16 @@
+tags:
+  - name: Memprocessing Text
+get:
+  description: Teks yang akan diproses
+parameters:
+  - name: text
+    in: formData
+    required: True
+    type: string
+responses:
+  "200":
+    description: Successful Response
+  "400":
+    description: Bad Request
+  "500":
+    descripton: Internal Server Error
